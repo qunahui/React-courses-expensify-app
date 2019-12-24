@@ -1,12 +1,13 @@
 {
-  "name": "indecision-app",
+  "name": "expensify-app",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "jest --config=jest.config.json",
     "serve": "live-server public/",
-    "build": "webpack --watch",
+    "build:dev": "webpack",
+    "build:prod": "webpack -p --env production",
     "dev-server": "webpack-dev-server"
   },
   "author": "Quang Huy",
@@ -25,6 +26,7 @@
     "enzyme-to-json": "^3.0.1",
     "jest": "^20.0.4",
     "live-server": "^1.2.1",
+    "mini-css-extract-plugin": "^0.9.0",
     "moment": "^2.24.0",
     "node-sass": "^4.13.0",
     "normalize.css": "^8.0.1",
