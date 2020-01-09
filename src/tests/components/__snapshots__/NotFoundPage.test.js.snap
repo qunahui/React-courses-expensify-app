@@ -4,7 +4,7 @@ exports[`should render NotFoundPage correctly 1`] = `
 <div>
   404 - 
   <[object Object]
-    to="/"
+    to="/dashboard"
   >
     Go home
   </[object Object]>
